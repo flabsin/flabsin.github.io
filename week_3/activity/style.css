@@ -1,0 +1,80 @@
+body {
+    background-color: #16365d;
+}
+h1 {
+    font-family: Arial;
+    color: white;
+}
+h2 {
+    font-family: Arial;
+}
+h3 {
+    font-family: Arial;
+}
+.insert {
+    padding-left: 1000px;
+}
+p {
+    font-family: Arial;
+    color: white;
+}
+.tables {
+    color: red;
+}
+.footers {
+    color: darkmagenta;
+}
+.doc {
+    color: red;
+    text-decoration: underline;
+}
+.media {
+    padding-left: 500px;
+    color: red;
+}
+.pic {
+    color: yellow;
+    text-decoration: underline;
+}
+.seltex {
+    color: blue;
+}
+.quick {
+    color: rgb(32, 233, 32);
+}
+.fortex {
+    padding-bottom: 50px;
+    background-color: black;
+    width: 50%;
+    border-top: 3px, solid, red;
+    border-left: 3px, solid, red;
+}
+.directly {
+    color: blue;
+}
+.theme {
+    color: red;
+}
+.include {
+    color: black;
+    background-color: green;
+}
+.controls {
+    color: green;
+}
+.conp {
+    padding: 20px;
+    background-color: black;
+    font-style: italic;
+    border-left: 2px, solid, red;
+    border-right: 2px, solid, yellow;
+}
+.galleries {
+    padding-left: 100px;
+    padding-right: 50px;
+    border-bottom: 2px, solid, yellow;
+    color: yellow;
+}
+.last {
+    background-color: red;
+}
