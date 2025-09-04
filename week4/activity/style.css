@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #eee;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  border: 10px solid white;
+}
+
+.top, .bottom {
+  display: flex;
+  flex: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.box {
+  border: 10px solid black;
+}
+
+
+.A { flex: 1; background: white; }
+.B { flex: 1; background: white; }
+.C { flex: 4; background: red; }
+
+.D { flex: 1; background: blue; }
+.E { flex: 3; background: white; }
+
+.F { flex: 1; background: white; }
+.G { flex: 1; background: yellow; }
