@@ -1,0 +1,54 @@
+/* Custom styles for Absin website */
+
+/* Navbar customizations */
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Card styling */
+.card {
+    margin: 2rem auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Example boxes styling */
+.container .row > div {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: transform 0.2s;
+}
+
+.container .row > div:hover {
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    .container .row > div {
+        font-size: 1rem;
+        padding: 2rem 0.5rem;
+    }
+}
